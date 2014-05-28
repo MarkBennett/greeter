@@ -2,10 +2,10 @@ var greet = require("./greeter.js").greet;
 var template = require("./template.html");
 var dom = require('dom');
 
-module.exports = function() {
+module.exports = function(name) {
   var greeting_target = dom(template);
 
-  greet("Bob").then(function(greeting) {
+  greet(name).then(function(greeting) {
     greeting_target.html(greeting);
   });
 
