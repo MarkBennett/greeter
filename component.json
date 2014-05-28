@@ -2,7 +2,7 @@
   "name": "greeter",
   "repo": "MarkBennett/greeter",
   "description": "A demonstration component for my talk on JS dependency management.",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {
     "techjacker/q": "*",
