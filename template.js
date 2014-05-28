@@ -1,0 +1,1 @@
+module.exports = '<div class="greeting-target"></div>\n';

@@ -1,0 +1,24 @@
+{
+  "name": "greeter",
+  "repo": "MarkBennett/greeter",
+  "description": "A demonstration component for my talk on JS dependency management.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "techjacker/q": "*",
+    "component/dom": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "greeter.js",
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "greeter.css"
+  ]
+}
